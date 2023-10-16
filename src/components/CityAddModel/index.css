@@ -1,0 +1,86 @@
+.active{
+    background-color: aquamarine;
+}
+
+.hovered4{
+    background-color: black;
+}
+
+.weather-heading-text{
+    font-family:"Proxima Nova", sans-serif;
+    color: gray;
+    font-size: 25px;
+    text-align: center;
+}
+
+.search-items{
+    margin: 20px;
+    padding: 20px;
+    background-color: lightgrey;
+    height: 292px;
+}
+
+.search-item{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    border: 2px solid gray;
+    margin: 15px;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.search-item-heading{
+    font-family:"Proxima Nova", sans-serif;
+    color: gray;
+    font-size: 25px;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.search-item-plus-icon{
+    color: gray;
+    height: 26px;
+    width: 30px;
+}
+
+.scroll-search-item{
+    background-color: transparent;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-right: 20px;
+    padding-right: 20px;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin-top: -20px;
+}
+
+.scroll-item{
+    background-color: transparent;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-right: 20px;
+    padding-right: 20px;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin-top: -20px;
+}
+
+.scroll-item::-webkit-scrollbar {
+    background-color: blue;
+    border-radius: 7px;
+    width: 5px;
+    height: 50px;
+}
+
+.city-name{
+    font-size: 35px;
+    color: rgb(69, 69, 239);
+    font-family: 'Montserrat', sans-serif;
+}
